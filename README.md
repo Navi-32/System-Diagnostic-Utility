@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # System Diagnostic Utility
 
 A comprehensive Python-based system diagnostic tool that checks various aspects of your system health, including disk space, memory usage, CPU performance, network connectivity, and more.
@@ -164,12 +164,3 @@ This project is open source and available for use and modification.
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
-=======
-System Diagnostic Utility (Python)
-
-This is a personal learning project focused on understanding basic system diagnostics 
-and troubleshooting concepts such as CPU, memory, and disk usage.
-
-The project is currently under development. Initial work includes planning diagnostic 
-checks, resource monitoring, and documentation of system health indicators.
->>>>>>> d84e821febeee534975da4e6a91d0c40b43097bb
