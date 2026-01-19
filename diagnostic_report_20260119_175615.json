@@ -1,0 +1,223 @@
+{
+  "timestamp": "2026-01-19T17:56:06.605454",
+  "system_info": {
+    "os": "Windows",
+    "os_version": "10.0.26100",
+    "os_release": "11",
+    "architecture": "AMD64",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "hostname": "NAVI",
+    "python_version": "3.12.6"
+  },
+  "disk_health": {
+    "C:\\": {
+      "mountpoint": "C:\\",
+      "fstype": "NTFS",
+      "total_gb": 225.29,
+      "used_gb": 185.45,
+      "free_gb": 39.84,
+      "percent_used": 82.31,
+      "status": "warning"
+    },
+    "D:\\": {
+      "mountpoint": "D:\\",
+      "fstype": "NTFS",
+      "total_gb": 250.0,
+      "used_gb": 72.17,
+      "free_gb": 177.82,
+      "percent_used": 28.87,
+      "status": "healthy"
+    }
+  },
+  "memory_health": {
+    "total_gb": 7.41,
+    "used_gb": 6.18,
+    "available_gb": 1.22,
+    "percent_used": 83.5,
+    "swap_total_gb": 9.5,
+    "swap_used_gb": 0.71,
+    "swap_percent": 7.5,
+    "status": "warning"
+  },
+  "cpu_health": {
+    "usage_percent": 53.9,
+    "cores": 12,
+    "status": "healthy",
+    "current_freq_mhz": 1908.0,
+    "min_freq_mhz": 0.0,
+    "max_freq_mhz": 3301.0,
+    "per_core_percent": [
+      76.9,
+      39.7,
+      36.9,
+      40.6,
+      0.0,
+      0.0,
+      57.6,
+      35.9,
+      54.7,
+      46.2,
+      43.1,
+      66.2
+    ]
+  },
+  "network_health": {
+    "total_bytes_sent": 11002920,
+    "total_bytes_recv": 250509893,
+    "total_packets_sent": 70922,
+    "total_packets_recv": 91412,
+    "interfaces": {
+      "Ethernet 3": {
+        "addresses": [
+          {
+            "family": "-1",
+            "address": "0A-00-27-00-00-06",
+            "netmask": null
+          },
+          {
+            "family": "2",
+            "address": "192.168.56.1",
+            "netmask": "255.255.255.0"
+          },
+          {
+            "family": "23",
+            "address": "fe80::155f:b22e:2ca1:c6d4",
+            "netmask": null
+          }
+        ],
+        "is_up": true,
+        "speed_mbps": 1000
+      },
+      "Local Area Connection* 1": {
+        "addresses": [
+          {
+            "family": "-1",
+            "address": "52-5A-65-F7-4D-29",
+            "netmask": null
+          },
+          {
+            "family": "2",
+            "address": "169.254.73.47",
+            "netmask": "255.255.0.0"
+          },
+          {
+            "family": "23",
+            "address": "fe80::20a4:1f63:9cb6:4769",
+            "netmask": null
+          }
+        ],
+        "is_up": false,
+        "speed_mbps": 0
+      },
+      "Local Area Connection* 2": {
+        "addresses": [
+          {
+            "family": "-1",
+            "address": "52-5A-65-F7-4D-39",
+            "netmask": null
+          },
+          {
+            "family": "2",
+            "address": "169.254.37.115",
+            "netmask": "255.255.0.0"
+          },
+          {
+            "family": "23",
+            "address": "fe80::4d1b:d95f:908a:d89",
+            "netmask": null
+          }
+        ],
+        "is_up": false,
+        "speed_mbps": 0
+      },
+      "Wi-Fi": {
+        "addresses": [
+          {
+            "family": "-1",
+            "address": "50-5A-65-F7-4D-69",
+            "netmask": null
+          },
+          {
+            "family": "2",
+            "address": "192.168.1.10",
+            "netmask": "255.255.255.0"
+          },
+          {
+            "family": "23",
+            "address": "2401:4900:1c6e:fc9d:664b:83ff:d6a4:62c2",
+            "netmask": null
+          },
+          {
+            "family": "23",
+            "address": "2401:4900:1c6e:fc9d:48e9:f2d6:6be4:f603",
+            "netmask": null
+          },
+          {
+            "family": "23",
+            "address": "fe80::d5e:25ec:1064:67d6",
+            "netmask": null
+          }
+        ],
+        "is_up": true,
+        "speed_mbps": 866
+      },
+      "Bluetooth Network Connection": {
+        "addresses": [
+          {
+            "family": "-1",
+            "address": "50-5A-65-F7-4D-68",
+            "netmask": null
+          },
+          {
+            "family": "2",
+            "address": "169.254.238.191",
+            "netmask": "255.255.0.0"
+          },
+          {
+            "family": "23",
+            "address": "fe80::cbbf:845:36b3:e8fd",
+            "netmask": null
+          }
+        ],
+        "is_up": false,
+        "speed_mbps": 3
+      },
+      "Loopback Pseudo-Interface 1": {
+        "addresses": [
+          {
+            "family": "2",
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0"
+          },
+          {
+            "family": "23",
+            "address": "::1",
+            "netmask": null
+          }
+        ],
+        "is_up": true,
+        "speed_mbps": 1073
+      }
+    },
+    "localhost_connectivity": true
+  },
+  "process_health": {
+    "total_processes": 285,
+    "top_cpu_processes": [],
+    "top_memory_processes": [
+      {
+        "pid": 28136,
+        "name": "Code.exe",
+        "memory_percent": 11.47
+      }
+    ]
+  },
+  "issues": [
+    "WARNING: C:\\ (C:\\) is 82.3% full",
+    "WARNING: Memory usage is 83.5%"
+  ],
+  "recommendations": [
+    "Free up space on C:\\ (C:\\). Currently 82.3% full.",
+    "High memory usage detected. Consider closing unnecessary applications or adding more RAM."
+  ]
+}
